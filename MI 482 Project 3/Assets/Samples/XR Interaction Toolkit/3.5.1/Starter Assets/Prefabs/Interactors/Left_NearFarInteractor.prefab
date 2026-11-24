@@ -70,7 +70,7 @@ MonoBehaviour:
     m_SmoothlyCurveLine: 1
     m_LineBendRatio: 0.25
     m_AdjustWidth: 1
-    m_StartWidth: 0.003
+    m_StarWidth: 0.003
     m_EndWidth: 0.003
     m_EndWidthScaleDistanceFactor: 2
     m_AdjustGradient: 1
@@ -110,7 +110,7 @@ MonoBehaviour:
     m_SmoothlyCurveLine: 1
     m_LineBendRatio: 0.5
     m_AdjustWidth: 1
-    m_StartWidth: 0.004
+    m_StarWidth: 0.004
     m_EndWidth: 0.004
     m_EndWidthScaleDistanceFactor: 2
     m_AdjustGradient: 1
@@ -150,7 +150,7 @@ MonoBehaviour:
     m_SmoothlyCurveLine: 1
     m_LineBendRatio: 0.5
     m_AdjustWidth: 1
-    m_StartWidth: 0.003
+    m_StarWidth: 0.003
     m_EndWidth: 0.003
     m_EndWidthScaleDistanceFactor: 2
     m_AdjustGradient: 1
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_SmoothlyCurveLine: 1
     m_LineBendRatio: 0.5
     m_AdjustWidth: 1
-    m_StartWidth: 0.003
+    m_StarWidth: 0.003
     m_EndWidth: 0.003
     m_EndWidthScaleDistanceFactor: 2
     m_AdjustGradient: 1
@@ -230,7 +230,7 @@ MonoBehaviour:
     m_SmoothlyCurveLine: 1
     m_LineBendRatio: 0.25
     m_AdjustWidth: 1
-    m_StartWidth: 0.004
+    m_StarWidth: 0.004
     m_EndWidth: 0.004
     m_EndWidthScaleDistanceFactor: 2
     m_AdjustGradient: 1
@@ -288,6 +288,11 @@ LineRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -309,6 +314,7 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -442,8 +448,6 @@ MonoBehaviour:
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
   m_StartingTargetFilter: {fileID: 0}
-  m_AutoFindParentInteractableInHierarchy: 0
-  m_ParentInteractableObject: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls: []
