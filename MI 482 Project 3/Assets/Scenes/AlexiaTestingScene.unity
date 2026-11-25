@@ -261,7 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DayNightCycle
   sun: {fileID: 299639868}
   skybox: {fileID: 2100000, guid: cb879a436a7692845a0f2ed7883aa098, type: 2}
-  cycleDuration: 30
+  cycleDuration: 90
   dayZenith: {r: 0.53, g: 0.81, b: 0.98, a: 1}
   dayHorizon: {r: 0.73, g: 0.89, b: 1, a: 1}
   dayIntenstity: 1

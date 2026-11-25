@@ -1,5 +1,7 @@
 using UnityEngine;
 
+//Code provided by: https://www.youtube.com/watch?v=uL9RGgfA-Ck
+
 public class DayNightCycle : MonoBehaviour
 {
     public Light sun;
